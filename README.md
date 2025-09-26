@@ -20,7 +20,7 @@ I'm a 2nd-year BCA (Bachelor of Computer Application) student at Calicut Univers
   RESTful API for easy data exchange.
 
 - 🛒 **E-commerce Website (Django)**  
-  Full-featured online store with user accounts, cart, and payments.
+  Full-featured online store with user accounts, cart and admin panel
 
 - 🤖 **AI Chatbot (OpenAI API)**  
   Smart chatbot for planing trip in dubai.
