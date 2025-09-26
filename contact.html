@@ -7,6 +7,7 @@
      <link rel="icon" href="./IMG-20240229-WA0117.jpg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
     <script>tailwind.config={theme:{extend:{colors:{primary:'#2563eb',secondary:'#f59e0b'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
@@ -49,28 +50,31 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div class="bg-white p-6 rounded-lg border border-gray-200">
                         <h3 class="text-xl font-semibold mb-2">Basic Package</h3>
-                        <div class="text-3xl font-bold text-primary mb-4">₹2499</div>
+                        <div class="text-3xl font-bold text-primary mb-4">₹2699</div>
                         <ul class="space-y-2 mb-6 text-sm">
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Responsive Landing Page</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Mobile Optimization</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Basic SEO Setup</li>
-                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>1 Week Delivery</li>
+                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>free hosting</li>
+                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>4 day Delivery</li>
                         </ul>
-                        <button class="w-full bg-gray-100 text-gray-800 py-2 !rounded-button font-medium cursor-pointer"><a href="#contact2">Book Consultation</a></button>
+                        <button class="w-full bg-gray-100 text-gray-800 py-2 !rounded-button font-medium cursor-pointer"><a href="https://wa.me/qr/ZI5XUI6UNJ66H1 ">Book Consultation</a></button>
                     </div>
                     
                     <div class="bg-white p-6 rounded-lg border-2 border-primary relative">
                         <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-white px-3 py-1 rounded-full text-xs">Most Popular</div>
                         <h3 class="text-xl font-semibold mb-2">Standard Package</h3>
-                        <div class="text-3xl font-bold text-primary mb-4">₹3499</div>
+                        <div class="text-3xl font-bold text-primary mb-4">₹3999</div>
                         <ul class="space-y-2 mb-6 text-sm">
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Multi-page Website</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>CMS Integration</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Contact Forms</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Advanced SEO</li>
-                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>2 Weeks Delivery</li>
+                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>free hosting</li>
+
+                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>1 Weeks Delivery</li>
                         </ul>
-                        <a href="#contact2"><button class="w-full bg-primary text-white py-2 !rounded-button font-medium cursor-pointer">Book Consultation</button></a>
+                        <a href="https://wa.me/qr/ZI5XUI6UNJ66H1 "><button class="w-full bg-primary text-white py-2 !rounded-button font-medium cursor-pointer">Book Consultation</button></a>
                     </div>
                     
                     <div class="bg-white p-6 rounded-lg border border-gray-200">
@@ -81,9 +85,9 @@
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Database Integration</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>User Authentication</li>
                             <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>Admin Dashboard</li>
-                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>3-4 Weeks Delivery</li>
+                            <li class="flex items-center"><i class="ri-check-line text-green-500 mr-2"></i>1-4 Weeks Delivery</li>
                         </ul>
-                        <a href="#contact2"><button class="w-full bg-gray-100 text-gray-800 py-2 !rounded-button font-medium cursor-pointer">Book Consultation</button></a>
+                        <a href="https://wa.me/qr/ZI5XUI6UNJ66H1 "><button class="w-full bg-gray-100 text-gray-800 py-2 !rounded-button font-medium cursor-pointer">Book Consultation</button></a>
                     </div>
                 </div>
             </div>
@@ -102,7 +106,7 @@
             </div>
             <div id="contact2" class="grid  lg:grid-cols-2 gap-12">
                 <div class="fade-in">
-                    <form  action="'https://formspree.io/f/meozjaon" method="post" class="bg-white p-8 rounded-2xl shadow-lg">
+                    <form id="submit-form" action="" method="post" class="bg-white p-8 rounded-2xl shadow-lg">
                         <div class="grid sm:grid-cols-2 gap-6 mb-6">
                             <div>
                                 <label class="block text-sm font-semibold text-gray-700 mb-2">First Name</label>
@@ -125,7 +129,7 @@
                             <label class="block text-sm font-semibold text-gray-700 mb-2">Message</label>
                             <textarea rows="4" name="message" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors resize-none" placeholder="Tell me about your project..."></textarea>
                         </div>
-                        <button type="submit" class="w-full bg-primary text-white py-3 !rounded-button font-semibold hover:bg-blue-700 transition-colors cursor-pointer">
+                        <button type="submit" value="submit" class="w-full bg-primary text-white py-3 !rounded-button font-semibold hover:bg-blue-700 transition-colors cursor-pointer">
                             Send Message
                         </button>
                     </form>
@@ -172,6 +176,9 @@
                             </a>
                             <a href="https://www.instagram.com/_ashfak05?igsh=YW92a3Axd2FwMnNz" class="w-10 h-10 bg-gray-200 rounded-xl flex items-center justify-center hover:bg-primary hover:text-white transition-colors cursor-pointer">
                                 <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href=" https://wa.me/qr/ZI5XUI6UNJ66H1 " class="w-10 h-10 bg-gray-200 rounded-xl flex items-center justify-center hover:bg-primary hover:text-white transition-colors cursor-pointer">
+                                <i class="ri-whatsapp-line text-xl"></i>
                             </a>
                             <!-- <a href="#" class="w-10 h-10 bg-gray-200 rounded-xl flex items-center justify-center hover:bg-primary hover:text-white transition-colors cursor-pointer">
                                 <i class="ri-twitter-line"></i>
@@ -223,6 +230,9 @@
                     <a href="https://www.instagram.com/_ashfak05?igsh=YW92a3Axd2FwMnNz" class="w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
                         <i class="ri-instagram-line text-xl"></i>
                     </a>
+                    <a href=" https://wa.me/qr/ZI5XUI6UNJ66H1 " class="w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+                        <i class="ri-whatsapp-line text-xl"></i>
+                    </a>
                 </div>
                 <div class="border-t border-gray-800 pt-8">
                     <p class="text-gray-400 text-sm">
@@ -233,6 +243,26 @@
         </div>
     </footer>
 
+     <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbwS-F8w15Q4D339gqT90SJv9UGESIgS1LyFiNHxWJZju7JQoM201PHeVB1sTbIerllrOA/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                console.log(err.message);
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
     <script id="mobile-menu-script">
         document.addEventListener('DOMContentLoaded', function() {
             const mobileMenuBtn = document.getElementById('mobile-menu-btn');
