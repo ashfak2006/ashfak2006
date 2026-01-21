@@ -1,6 +1,6 @@
-# 👋 Hey there! I'm Ashfak, a BCA Student & Web Developer
+# Hey there! I'm Ashfak, a BCA Student & Web Developer
 
-Welcome to my profile! 🎉  
+Welcome to my profile!   
 I'm a 2nd-year BCA (Bachelor of Computer Application) student at Calicut University, passionate about building web solutions, exploring AI/ML, and diving into cybersecurity. Let's connect and create something awesome together! 🚀
 
 ---
@@ -16,21 +16,23 @@ I'm a 2nd-year BCA (Bachelor of Computer Application) student at Calicut Univers
 
 ## 🌟 Projects I’ve Built
 
-- 🔗 **Simple API with Flask**  
+- **Simple API with Flask**  
   RESTful API for easy data exchange.
 
-- 🛒 **E-commerce Website (Django)**  
+- **E-commerce Website (Django)**  
   Full-featured online store with user accounts, cart and admin panel
 
-- 🤖 **AI Chatbot (OpenAI API)**  
+- **AI Chatbot (OpenAI API)**  
   Smart chatbot for planing trip in dubai.
+-**Study Buddy**
+  a Ai enabled Platform to Generate Summarise, Q&A, Keypoints from Study Notes
 
 ---
 
 ## 🎯 What I’m Looking For
 
-- 💼 **Freelance Web Development** (dynamic/static sites, APIs, chatbots)
-- 🎓 **Internships** in web dev, AI/ML, or cybersecurity
+- **Freelance Web Development** (dynamic/static sites, APIs, chatbots)
+- **Internships** in web dev, AI/ML, or cybersecurity
 
 ---
 
