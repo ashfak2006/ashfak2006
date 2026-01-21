@@ -7,10 +7,11 @@ I'm a 2nd-year BCA (Bachelor of Computer Application) student at Calicut Univers
 
 ## 🛠️ Skills & Technologies
 
-- 🐍 **Python**, 💻 **C**, 💾 **C++**
-- 🌐 **HTML**, 🎨 **CSS**, ⚡ **JavaScript**
-- ⚛️ **React**, 🐦 **Django**, 🧬 **Flask**
-- 🎉 **Bootstrap**, 🌈 **Tailwind CSS**
+- **Python**, **C**, **C++**
+- **HTML**, **CSS**, **JavaScript**
+- **React**, **Django**, **Flask**
+- **Bootstrap**, **Tailwind CSS**
+- **GEN AI**
 
 ---
 
@@ -24,8 +25,9 @@ I'm a 2nd-year BCA (Bachelor of Computer Application) student at Calicut Univers
 
 - **AI Chatbot (OpenAI API)**  
   Smart chatbot for planing trip in dubai.
--**Study Buddy**
-  a Ai enabled Platform to Generate Summarise, Q&A, Keypoints from Study Notes
+  
+- **Study Buddy**
+  Ai enabled Platform to Generate Summarise, Q&A, Keypoints from Study Notes
 
 ---
 
