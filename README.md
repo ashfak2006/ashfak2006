@@ -64,13 +64,6 @@ AI-powered learning platform with a distraction-free reader, Markdown content pi
 `Django` `FastAPI` `React` `LangChain` `Qdrant`
 
 </td>
-<td width="50%" valign="top">
-
-**🤖 WhatsApp FAQ Chatbot**  
-Production-ready chatbot using Meta Cloud API (no BSP), FastAPI, and Gemini 1.5 Flash. Deployable for clinics, restaurants, and SMEs on Railway — fully free-tier.  
-`FastAPI` `LangChain` `Gemini` `Meta API`
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -84,7 +77,7 @@ Full-featured online store with JWT authentication, cart system, and admin panel
 
 **📚 Study Buddy**  
 AI tool that generates summaries, Q&A sets, and key points from uploaded study notes.  
-`Python` `OpenAI API` `Flask`
+`Python` `OpenAI API` 
 
 </td>
 </tr>
